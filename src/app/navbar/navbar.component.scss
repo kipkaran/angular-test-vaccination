@@ -1,0 +1,38 @@
+.nav-spacer {
+    flex: 1 1 auto;
+  }
+
+mat-toolbar{
+    background-color: transparent;
+
+}
+
+  .navlinks{
+    list-style: none;
+    display: flex; 
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0.25rem;
+    justify-content: space-between;
+
+    li{
+        padding: 0.5rem;
+    }
+
+    a {
+      list-style: none;
+      text-decoration: none;
+      padding: 0.5rem;
+    }
+
+    a:visited {
+      color: #000000;
+    }
+
+    a:hover,:active{
+        color: #FFD0A4;
+        background-color: #757575;
+        border-radius: 5px;
+    }
+  }
+  
