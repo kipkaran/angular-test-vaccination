@@ -1,0 +1,24 @@
+.footer{
+    background-color: #757575;
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    color: #FFD0A4;
+
+    li{
+        padding: 0.5rem;
+        list-style: none;
+    }
+
+    a {
+      list-style: none;
+      text-decoration: none;
+      padding: 0.5rem;
+    }
+
+    a:visited {
+        color: #FFD0A4;
+      }
+}
