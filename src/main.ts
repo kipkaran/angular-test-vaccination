@@ -11,4 +11,6 @@ if (environment.production) {
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
-alert("not ready")
+let name = prompt("please type your name")
+let greating = "how are you " + name;
+alert(greating)
