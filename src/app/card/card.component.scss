@@ -7,3 +7,50 @@
     -webkit-text-stroke:1px #757575;
     color: transparent;
 }
+div .three{
+    display: flex;
+    padding: 0.7vw;
+}
+.three .access{
+    text-align: centre;
+    border: 1px solid#757575;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5vw;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.three .access h4{
+    margin-left: 21%;
+}
+.three .access p{
+    margin-left: 23px
+}
+.three .public{
+    text-align: centre;
+    border: 1px solid#757575;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5vw;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.three .public h4{
+    margin-left: 30%;
+}
+.three .public p{
+    margin-left: 23px
+}
+.three .comp{
+    text-align: centre;
+    border: 1px solid#757575;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5vw;
+    margin-left: 10px;
+    width: 35vw;
+    border-radius: 10px;
+}
+.three .comp p{
+    margin-left: 23px ;
+}
+.three .comp h4{
+    margin-left: 30%;
+}

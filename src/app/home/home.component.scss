@@ -2,7 +2,14 @@
     text-align: center;
     font-weight: 700;
     margin-top: 5rem;
-    font-size: 2rem;
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pass{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    color: #757575;
 }
 .buttons{
     text-align: center;
@@ -18,4 +25,13 @@
 
 .buttons-a, .buttons-b {
     background-color: #ffd0a4;
+    transition: 0.5s;
+}
+.buttons-a:hover{
+    background-color: #757575;
+    color: #ffd0a4;
+}
+.buttons-b:hover{
+    background-color: #757575;
+    color: #ffd0a4;
 }

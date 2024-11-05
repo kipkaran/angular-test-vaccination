@@ -6,7 +6,7 @@
     padding: 15px 20px;
     text-align: center;
     color: #FFD0A4;
-
+    display: flex;
     li{
         padding: 0.5rem;
         list-style: none;
@@ -21,4 +21,8 @@
     a:visited {
         color: #FFD0A4;
       }
+}
+ul li:hover{
+  color:#757575;
+  background-color: #FFD0A4;
 }

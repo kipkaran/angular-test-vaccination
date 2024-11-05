@@ -27,12 +27,14 @@ mat-toolbar{
 
     a:visited {
       color: #000000;
+      transition: 1s;
     }
 
     a:hover,:active{
         color: #FFD0A4;
         background-color: #757575;
         border-radius: 5px;
+        // border: 1px solid#FFD0A4;
     }
   }
   
