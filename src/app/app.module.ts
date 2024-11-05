@@ -14,6 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { MatInputModule } from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
