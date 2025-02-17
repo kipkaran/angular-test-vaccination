@@ -6,11 +6,12 @@
       "author": "typicode"
     }
   ],
-  "comments": [
+  "registeredUsers": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "fullName": "Kibe kibe",
+      "email": "kibe@com.com",
+      "password": "0123456",
+      "id": 1
     }
   ],
   "profile": {

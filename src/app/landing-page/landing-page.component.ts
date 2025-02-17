@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormBuilder, FormGroup } from '@angular/forms';
+import { FormControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
@@ -10,15 +10,12 @@ import { Router } from '@angular/router';
 })
 export class LandingPageComponent implements OnInit {
 
-  private logInForm!: FormGroup;
+  
 
-  constructor(private formBuilder : FormBuilder, private http: HttpClient, private router: Router) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.logInForm = this.formBuilder.group({
-      username:[''],
-      password: ['']
-  })
+    
   }
 
 }

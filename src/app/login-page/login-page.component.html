@@ -3,13 +3,13 @@
 </div>
 <div class="login-detail">
     <mat-card class="login-detail-card">
-        <form FormGroup="logInForm" class="login-details">
-            <mat-form-field class="example-full-width" appearance="outline">
-                <input matInput type="text">
+        <form [formGroup]="loginForm" class="login-details">
+            <mat-form-field class="example-full-width" appearance="outline" >
+                <input matInput type="text" formControlName="email">
                 <mat-label>Username</mat-label>
             </mat-form-field>
-            <mat-form-field class="example-full-width" appearance="outline">
-                <input matInput type="text">
+            <mat-form-field class="example-full-width" appearance="outline" >
+                <input matInput type="text" formControlName="password">
                 <mat-label>Password</mat-label>
             </mat-form-field>
         </form>
