@@ -15,6 +15,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { MatInputModule } from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './forms/forms.component';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FormsComponent } from './forms/forms.component';
     MatButtonModule,
     MatCardModule, 
     MatInputModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
