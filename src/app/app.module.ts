@@ -17,6 +17,14 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './forms/forms.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { PatientsTableComponent } from './patients-table/patients-table.component';
+
+
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatSortModule} from '@angular/material/sort';
+import {MatTableDataSource, MatTableModule} from '@angular/material/table';
+import {MatFormFieldModule} from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
@@ -27,6 +35,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     LoginPageComponent,
     FormsComponent,
     LandingPageComponent,
+    PatientsTableComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,7 +47,15 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     MatCardModule, 
     MatInputModule,
     ReactiveFormsModule,
-    MatDialogModule
+    MatDialogModule,
+    MatFormFieldModule,
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule
+    
+
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
