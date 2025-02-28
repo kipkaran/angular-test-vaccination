@@ -16,7 +16,7 @@ import { MatInputModule } from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './forms/forms.component';
 import {MatDialogModule} from '@angular/material/dialog';
-import { LandingPageComponent } from './landing-page/landing-page.component';
+
 import { PatientsTableComponent } from './patients-table/patients-table.component';
 
 
@@ -24,6 +24,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { PatientsInfoComponent } from './patients-info/patients-info.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 
 @NgModule({
@@ -34,8 +36,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     HomeComponent,
     LoginPageComponent,
     FormsComponent,
-    LandingPageComponent,
     PatientsTableComponent,
+    PatientsInfoComponent,
   ],
   imports: [
     BrowserModule,
@@ -51,7 +53,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatFormFieldModule,
     MatTableModule,
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatCheckboxModule
     
 
 

@@ -1,0 +1,96 @@
+
+
+<div class="info">
+      <p> Patients  History & Vital Signs Vaccination Post Vacination</p>
+</div>
+
+
+<div class="patient-info-graphics">
+    <mat-card class="patient-info-graphics-card">
+        <mat-card-content>
+<b>Vaccination Id:</b> Some Vacc ID
+<b>Patient Name:</b>Some Name
+<b>Age:</b> Some Age
+<b>Sex:</b> Some gender
+<b>Date:</b> Some Date
+        </mat-card-content>
+      </mat-card>  
+</div>
+
+
+<div class="infoCollect">
+    <mat-card>
+        <h1>History & Vital Signs</h1>
+
+        <p>
+            <mat-label> Any Kown food or Drug Allergy? : </mat-label>
+            <mat-checkbox> Yes </mat-checkbox>
+            <mat-checkbox> No </mat-checkbox>
+        </p>
+  
+        <p>
+          <mat-label> Any reaction to Vaccines? : </mat-label>
+          <mat-checkbox> Yes </mat-checkbox> 
+          <mat-checkbox> No </mat-checkbox> 
+      </p>
+
+
+<h4>History of Previous Vaccination:</h4>
+      <form class="history-form">
+        <mat-form-field class="history-full-width">
+            <mat-label>History of previous Vaccination</mat-label>
+            <input matInput #message maxlength="256" placeholder="what happened when you last took a Vaccines?">
+            
+            
+          </mat-form-field>
+          </form>
+
+
+    </mat-card>
+
+
+
+</div>
+
+
+<div class="vital-signs">
+    <mat-card class=" vitals-signs-card">
+        <mat-card-content>    
+   
+            <h2>Vital Signs</h2>
+            <p>
+                <mat-form-field appearance="outline">
+                  <mat-label>Temperature</mat-label>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </p>
+              <p>
+                <mat-form-field appearance="outline">
+                  <mat-label>Pulse Rate</mat-label>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </p>
+              <p>
+                <mat-form-field appearance="outline">
+                  <mat-label>Respiratory Rate</mat-label>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </p>
+              <p>
+                <mat-form-field appearance="outline">
+                  <mat-label>Blood Pressure</mat-label>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </p>
+              <p>
+                <mat-form-field appearance="outline">
+                  <mat-label>SpO<sub>2</sub></mat-label>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </p>
+
+        </mat-card-content>
+
+      </mat-card>
+   
+    </div>

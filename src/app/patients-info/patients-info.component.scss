@@ -1,0 +1,26 @@
+.info{
+    display: grid;
+   align-items: flex-end;
+
+}
+
+vitals-signs{
+
+    text-align: center;
+    display: grid;
+    justify-content: center;
+
+    height: auto;
+}
+
+.history-form {
+    min-width: 150px;
+    max-width: 500px;
+    min-height: 50px;
+    max-height: 150px;
+    width: 100%;
+  }
+  
+  .history-full-width {
+    width: 100%;
+  }
