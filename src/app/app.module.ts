@@ -26,6 +26,7 @@ import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { PatientsInfoComponent } from './patients-info/patients-info.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { VaccinationComponent } from './vaccination/vaccination.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     FormsComponent,
     PatientsTableComponent,
     PatientsInfoComponent,
+    VaccinationComponent,
   ],
   imports: [
     BrowserModule,
