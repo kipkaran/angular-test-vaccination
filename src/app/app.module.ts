@@ -16,7 +16,6 @@ import { MatInputModule } from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './forms/forms.component';
 import {MatDialogModule} from '@angular/material/dialog';
-
 import { PatientsTableComponent } from './patients-table/patients-table.component';
 
 import {MatPaginatorModule} from '@angular/material/paginator';
@@ -25,6 +24,8 @@ import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { PatientsInfoComponent } from './patients-info/patients-info.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { VaccinationComponent } from './vaccination/vaccination.component';
+import { MatNativeDateModule, NativeDateAdapter } from '@angular/material/core';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     FormsComponent,
     PatientsTableComponent,
     PatientsInfoComponent,
+    VaccinationComponent,
   ],
   imports: [
     BrowserModule,
@@ -53,13 +55,14 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MatTableModule,
     MatSortModule,
     MatPaginatorModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatNativeDateModule,
     
 
 
 
   ],
-  providers: [],
+  providers: [NativeDateAdapter],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
