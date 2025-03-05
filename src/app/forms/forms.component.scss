@@ -1,24 +1,66 @@
-
-.patients-title {
+*{
     text-align: center;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-top: 2.5rem;
 }
-
-.patients-details {
-    padding: 0.25rem;
-    margin-top: 1.5rem;
-    text-align: center;
-    display: grid;
-    justify-content: center;
+.main{
+    border-radius: 8px;
+    max-width: 49vw;
+    align-content: centre;
+    margin-top: 27px;
+    margin-left: 25%;
+    background-color: #ffd0a4;
+    padding: 20px;
+}
+form{
+    text-align: centre;
     
 }
-
-.patients-details-card {
-    max-width: 1000px;
-   
+section{
+    
+    align-items: centre;
+    justify-content: centre;
+    margin-top: 20px;
 }
-.example-full-width{
-    display: flex;
+h2{
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+    font-size: 45px;
+    text-align: centre;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+.first-name input{
+    width: 75%;
+}
+.middle-name input{
+    width: 75%;
+}
+.last-name input{
+    width: 75%;
+}
+.sex input{
+    width: 75%;
+}
+.date-of-birth input{
+    width: 75%;
+}
+.email input{
+    width: 75%;
+}
+.next-of-kin input{
+    width: 75%;
+}
+input{
+    height: 30px;
+}
+.btn button{
+    justify-content: center;
+    align-items: centre;
+    margin-left: 1vw;
+    width:40%;
+    height: 5vh;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
 }

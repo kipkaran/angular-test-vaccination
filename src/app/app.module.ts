@@ -19,7 +19,6 @@ import {MatDialogModule} from '@angular/material/dialog';
 
 import { PatientsTableComponent } from './patients-table/patients-table.component';
 
-
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
