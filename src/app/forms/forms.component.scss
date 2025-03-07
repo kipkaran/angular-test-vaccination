@@ -9,6 +9,7 @@
     margin-left: 25%;
     background-color: #ffd0a4;
     padding: 20px;
+    margin-bottom: 20px;
 }
 form{
     text-align: centre;
@@ -32,24 +33,38 @@ h2{
 }
 .first-name input{
     width: 75%;
+    border: none;
+    border-radius: 5px;
 }
 .middle-name input{
     width: 75%;
+    border: none;
+    border-radius: 5px;
 }
 .last-name input{
     width: 75%;
+    border: none;
+    border-radius: 5px;
 }
 .sex input{
     width: 75%;
+    border: none;
+    border-radius: 5px;
 }
 .date-of-birth input{
     width: 75%;
+    border: none;
+    border-radius: 5px;
 }
 .email input{
     width: 75%;
+    border: none;
+    border-radius: 5px;
 }
 .next-of-kin input{
     width: 75%;
+    border: none;
+    border-radius: 5px;
 }
 input{
     height: 30px;
@@ -61,6 +76,9 @@ input{
     width:40%;
     height: 5vh;
     background-color: white;
-    border: 1px solid black;
+    border:none;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 5px;
 }

@@ -1,0 +1,58 @@
+.info p{
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.patient-info-graphics-card{
+    background-color: #ffd0a4;
+    border: none;
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+mat-label{
+    color: black;
+    margin-left: 2em;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+mat-form-field{
+    margin-top: 10PX;
+    
+    margin-left: 13%;
+    width: 75%;
+    margin-bottom: 10PX;
+}
+input{
+    color: black;
+    margin-left: 1em;
+
+}
+mat-card-content{
+    background-color: #ffd0a4;
+    border-radius: 8px;
+    max-width: 60vw;
+    margin-top: 27px;
+    margin-left: 20%;
+}
+button{
+    background-color: red;
+    margin-left: 30%;
+    width:40%;
+    height: 5vh;
+    background-color: white;
+    border:none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 5px;
+   
+}
