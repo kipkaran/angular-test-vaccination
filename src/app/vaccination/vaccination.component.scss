@@ -7,11 +7,13 @@
 .patient-info-graphics-card{
     background-color: #ffd0a4;
     border: none;
-    padding: 30px;
+    padding: 20px;
     font-size: 20px;
-
 }
-
+.mini-heads b{
+    padding:0.5em;
+    flex-wrap: wrap;
+}
 .heading{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -42,6 +44,7 @@ mat-card-content{
     max-width: 60vw;
     margin-top: 27px;
     margin-left: 20%;
+    max-height: auto;
 }
 button{
     background-color: red;
@@ -54,5 +57,4 @@ button{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     border-radius: 5px;
-   
 }
