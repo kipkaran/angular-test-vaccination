@@ -36,35 +36,56 @@ h2{
     border: none;
     border-radius: 5px;
 }
+.first-name input:hover{
+    border: 1px solid black;
+}
 .middle-name input{
     width: 75%;
     border: none;
     border-radius: 5px;
+}
+.middle-name input:hover{
+    border: 1px solid black;
 }
 .last-name input{
     width: 75%;
     border: none;
     border-radius: 5px;
 }
+.last-name input:hover{
+    border: 1px solid black;
+}
 .sex input{
     width: 75%;
     border: none;
     border-radius: 5px;
+}
+.sex input:hover{
+    border: 1px solid black;
 }
 .date-of-birth input{
     width: 75%;
     border: none;
     border-radius: 5px;
 }
+.date-of-birth input:hover{
+    border: 1px solid black;
+}
 .email input{
     width: 75%;
     border: none;
     border-radius: 5px;
 }
+.email input:hover{
+    border: 1px solid black;
+}
 .next-of-kin input{
     width: 75%;
     border: none;
     border-radius: 5px;
+}
+.next-of-kin input:hover{
+    border: 1px solid black;
 }
 input{
     height: 30px;

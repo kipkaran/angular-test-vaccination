@@ -17,20 +17,46 @@
   flex-wrap: wrap;
 }
 .main-form{
-  max-width: 50em;
-  max-height: 550px;
+  max-width: 57%;
   margin-left: 20%;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  /*box-shadow: 5px 5px 30px 5px;*/
 }
 mat-card h1{
   color: black;
   text-transform: uppercase;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
+  
 }
 mat-card p{
   max-width: auto;
-  color: rgb(34, 255, 0);
+  color: black;
   font-family: 30px;
+  margin-left: 10%;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: auto;
+}
+mat-card h2{
+  font-family: 'Times New Roman', Times, serif;
+}
+button{
+  background-color: #757575;
+  border: none;
+  width: 60%;
+  height: 50px;
+  color: white;
+  border-radius: 8px;
+  margin-left: 35%;
+  transition: 3s;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+button:hover{
+  border-radius: 10px;
 }
 vitals-signs{
   text-align: center;
